@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_INVALID_OVERRIDE_SELECTOR",
+    "err": {
+      "name": "pnpm",
+      "message": "Cannot parse the \"next-api-og-image/chrome-aws-lambda\" selector in the overrides",
+      "code": "ERR_PNPM_INVALID_OVERRIDE_SELECTOR",
+      "stack": "pnpm: Cannot parse the \"next-api-og-image/chrome-aws-lambda\" selector in the overrides\n    at parsePkgSelector (/usr/local/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:120792:15)\n    at /usr/local/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:120784:22\n    at Array.map (<anonymous>)\n    at parseOverrides (/usr/local/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:120770:40)\n    at default_1 (/usr/local/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:120816:152)\n    at createReadPackageHook (/usr/local/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:121881:58)\n    at mutateModules (/usr/local/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:121624:32)\n    at async install (/usr/local/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:121598:24)\n    at async handler (/usr/local/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:123237:31)\n    at async /usr/local/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:187855:21"
+    }
+  }
+}
